@@ -103,7 +103,15 @@ document.getElementById("btn8").addEventListener("click", function () {
 //
 // Dica: use .lastElementChild e .removeChild()
 
+document.getElementById("btn9").addEventListener("click", function () {
+  const lista = document.getElementById("lista9");
+  const ultimoItem = lista.lastElementChild;
 
+  
+  if (ultimoItem) {
+    ultimoItem.remove();
+  }
+});
 
 // ---------- Exercicio 10 ----------
 // Ao clicar no botao, troque o src da #imagem10 para
@@ -111,3 +119,8 @@ document.getElementById("btn8").addEventListener("click", function () {
 //
 // Dica: use .src = "nova-url"
 
+document.getElementById("btn10").addEventListener("click", function () {
+  const imagem = document.getElementById("imagem10");
+  
+  imagem.src = "https://placecats.com/300/200";
+});
