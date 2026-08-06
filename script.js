@@ -80,10 +80,10 @@ document.getElementById("btn6").addEventListener("click", function () {
 
 
 document.getElementById("btn7").addEventListener("click", function () {
-  // 1. Pega o valor digitado no campo de input
+
   const valorInput = document.getElementById("input7").value;
   
-  // 2. Exibe o valor dentro do elemento de resultado
+  
   document.getElementById("resultado7").textContent = valorInput;
 });
 
@@ -93,7 +93,10 @@ document.getElementById("btn7").addEventListener("click", function () {
 //
 // Dica: use .classList.add("destaque")
 
-
+document.getElementById("btn8").addEventListener("click", function () {
+    const texto = document.getElementById("texto8")
+    texto.classList.add("destaque")
+})
 
 // ---------- Exercicio 9 ----------
 // Ao clicar no botao, remova o ultimo <li> da #lista9
