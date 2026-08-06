@@ -117,6 +117,20 @@ document.getElementById("btn18").addEventListener("click", function () {
 // Dica: use Number() para converter o texto em numero
 
 
+document.getElementById("btn19mais").addEventListener("click", function () {
+  const contador = document.getElementById("contador19");
+  const valorAtual = Number(contador.textContent);
+  
+  contador.textContent = valorAtual + 1;
+});
+
+
+document.getElementById("btn19menos").addEventListener("click", function () {
+  const contador = document.getElementById("contador19");
+  const valorAtual = Number(contador.textContent);
+  
+  contador.textContent = valorAtual - 1;
+});
 
 // ---------- Exercicio 20 ----------
 // Ao clicar no botao, pegue a cor selecionada no #corInput20
