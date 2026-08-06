@@ -103,6 +103,11 @@ document.getElementById("btn17").addEventListener("click", function () {
 //
 // Dica: use .value para ler e definir o texto dos inputs
 
+document.getElementById("btn18").addEventListener("click", function () {
+  const valorOrigem = document.getElementById("input18a").value;
+  
+  document.getElementById("input18b").value = valorOrigem;
+});
 
 
 // ---------- Exercicio 19 ----------
