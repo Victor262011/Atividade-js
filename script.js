@@ -79,6 +79,15 @@ document.getElementById("btn6").addEventListener("click", function () {
 
 
 
+document.getElementById("btn7").addEventListener("click", function () {
+  // 1. Pega o valor digitado no campo de input
+  const valorInput = document.getElementById("input7").value;
+  
+  // 2. Exibe o valor dentro do elemento de resultado
+  document.getElementById("resultado7").textContent = valorInput;
+});
+
+
 // ---------- Exercicio 8 ----------
 // Ao clicar no botao, adicione a classe "destaque" ao #texto8
 //
