@@ -19,6 +19,9 @@ document.getElementById("btn1").addEventListener("click", function () {
 //
 // Dica: use .style.color = "blue"
 
+document.getElementById("btn2").addEventListener("click", function () {
+    document.getElementById("texto2").style.color = "blue"
+})
 
 
 // ---------- Exercicio 3 ----------
