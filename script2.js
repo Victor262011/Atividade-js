@@ -91,7 +91,11 @@ document.getElementById("btn16").addEventListener("click", function () {
 //
 // Dica: use .style.border = "3px solid red"
 
-
+document.getElementById("btn17").addEventListener("click", function () {
+  const caixa = document.getElementById("caixa17");
+  
+  caixa.style.border = "3px solid red";
+});
 
 // ---------- Exercicio 18 ----------
 // Ao clicar no botao, copie o valor do #input18a
