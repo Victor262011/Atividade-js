@@ -10,7 +10,7 @@
 //
 // Dica: use document.getElementById() e .textContent
 document.getElementById("btn1").addEventListener("click", function () {
-    document.getElementById("texto1").textContent = "Quem não está disposto a abrir mão de nada... nunca conquistará nada!"
+    document.getElementById("texto1").textContent = "Quem não está disposto a abrir mão de nada... nunca conquistará nada!git "
 })
 
 
@@ -38,7 +38,13 @@ document.getElementById("btn3").addEventListener("click", function () {
 // "Novo item" dentro da lista #lista4
 //
 // Dica: use document.createElement() e .appendChild()
+document.getElementById("btn4").addEventListener("click", function () {
+const novoItem = document.createElement("li");
+novoItem.textContent = "Novo item"
 
+const lista = document.getElementById("lista4")
+lista.appendChild(novoItem)
+})
 
 
 // ---------- Exercicio 5 ----------
