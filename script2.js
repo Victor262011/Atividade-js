@@ -11,6 +11,15 @@
 
 
 
+document.getElementById("btn11").addEventListener("click", function () {
+    const butao = document.getElementById("btn11");
+    butao.disabled = true;
+    document.getElementById("btn11").style.color = "white"
+    document.getElementById("btn11").style.backgroundColor = "gray"
+});
+ 
+
+
 // ---------- Exercicio 12 ----------
 // Ao clicar no botao #btn12, troque o texto dele
 // de "Curtir" para "Curtido!"
