@@ -44,7 +44,10 @@ document.getElementById("btn13").addEventListener("click", function () {
 // Ao clicar no botao, remova todos os itens da #lista14
 //
 // Dica: use .innerHTML = ""
-
+document.getElementById("btn14").addEventListener("click", function () {
+   const apagar = document.getElementById("lista14").innerHTML = ""
+   apagar.textContent
+})
 
 
 // ---------- Exercicio 15 ----------
